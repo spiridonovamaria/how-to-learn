@@ -123,8 +123,6 @@
 .two-columns__main-text {
   width: 80%; 
   min-width: 784px;
-  
-
 }
 
 .two-columns__paragraph {
@@ -239,8 +237,6 @@ span {
   font-size: 120px;
   font-weight: 600;
   font-style: normal;
-  
- 
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
   display: flex;
   position: absolute;
@@ -248,8 +244,6 @@ span {
   Text-align: center;
   margin-top: 100px;
   margin-bottom: 0;
-  
-  
 }
 
 .feynman__subtitle {
@@ -273,7 +267,7 @@ span {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-
+  
 }
 
 .kaufman {
