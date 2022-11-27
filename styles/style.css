@@ -241,7 +241,7 @@ span {
   display: flex;
   position: absolute;
   justify-content: center;
-  Text-align: center;
+  text-align: center;
   margin-top: 100px;
   margin-bottom: 0;
 }
@@ -255,7 +255,7 @@ span {
   top: 50%;
   justify-content: center;
   font-family: 'Helvetica Neue', 'Arial', sans-serif;
-  Text-align: center;
+  text-align: center;
   margin-top: 0;
 }
 
