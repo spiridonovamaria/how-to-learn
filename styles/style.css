@@ -121,7 +121,7 @@
 }
 
 .two-columns__main-text {
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
 }
 
@@ -172,7 +172,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   margin-bottom: 0;
 }
 
@@ -207,7 +207,7 @@ span {
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   padding-top: 20px;
 }
 
@@ -254,7 +254,7 @@ span {
   position: absolute;
   top: 50%;
   justify-content: center;
-  font-family: 'Helvetica Neue', 'Arial', sans-serif; 
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
   Text-align: center;
   margin-top: 0;
 }
@@ -267,7 +267,7 @@ span {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  
+
 }
 
 .kaufman {
