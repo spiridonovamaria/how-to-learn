@@ -9,11 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-body {
-
-  overflow-x: hidden;
-  
-  }
 .header {
   height: 100vh;
   min-height: 600px;
@@ -90,7 +85,6 @@ body {
 }
 
 .description {
-  border: 2px solid gray;
   margin: 100px auto 100px;
   display: flex;
   flex-direction: column;
@@ -280,7 +274,8 @@ span {
   align-items: center;
   margin: 90px auto 90px;
   background-color: #1f1f1f;
-  overflow: hidden; 
+  overflow: hidden;
+  position: relative;
   
 }
 
