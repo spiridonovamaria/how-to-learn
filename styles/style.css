@@ -45,6 +45,7 @@
   margin: 0;
   padding: 0;
   margin-left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -57,7 +58,8 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  margin-left: 64px;
+  left: 64px;
+  z-index: 2;
 
 }
 
@@ -83,11 +85,13 @@
   position: absolute;
   bottom: 0;
   right: 0;
+  z-index: 1;
+  
   
 }
 
 .description {
-  margin: 100px auto 100px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -151,7 +155,7 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto 100px;
+  padding: 100px 0;
 }
 
 .section-title {
@@ -211,7 +215,8 @@
 }
 
 .table__text {
-  margin: 20px 0;
+  margin-bottom: 0;
+  margin-top: 20px;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -221,7 +226,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -282,8 +287,6 @@
 }
 
 .kaufman {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -291,6 +294,7 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  padding: 90px 0;
   
 }
 
@@ -328,31 +332,28 @@
 }
 
 .kaufman__illustration {
+  background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   position: absolute;
   top: 0;
   right: -210px;
+  z-index: 1;
 }
 
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
   display: flex;
-  flex-direction: column;
-  position: relative;
   justify-content: center;
   box-sizing: border-box;
- 
+  padding: 60px 0 40px 0;
 }
 
 .footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  left: 5%;
-  height: 100%;
 }
 
 .footer__column_content_copyright {
@@ -360,37 +361,36 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
-  margin: 60px 0 40px 0;
 
 }
-
 
 
 .footer__author {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
   margin: 18px 0;
   padding: 0;
   color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
+  margin: 0;
   padding: 0;
   color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
-  margin: 60px 0 40px 0;
+
 }
 
 .footer__column-links {
   display: flex;
   flex-direction: column;
   list-style: none;
+  margin: 20px 0 16px 0;
+  list-style: none;
   padding: 0;
-  margin: 60px 0 40px 0;
 }
 
 .footer__column-link {
