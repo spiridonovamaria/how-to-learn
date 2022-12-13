@@ -1,0 +1,11 @@
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+  }
