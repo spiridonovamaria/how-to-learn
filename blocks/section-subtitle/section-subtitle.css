@@ -1,15 +1,14 @@
 .section-subtitle {
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    width: 60%;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
